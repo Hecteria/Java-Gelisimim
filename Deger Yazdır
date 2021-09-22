@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class App {
+    public static void main(String[] args) throws Exception {
+        System.out.println("Lütfen İlk Değer Girin: ");
+        Scanner ilkdeger = new Scanner(System.in);
+        int degerilk = ilkdeger.nextInt();
+        System.out.println("Lütfen İlk Değer Girin: ");
+        Scanner sondeger = new Scanner(System.in);
+        int degerson = sondeger.nextInt();
+        for(int i=degerilk;i<=degerson;i++){
+            System.out.println(""+i);
+        }
+    }
+}
