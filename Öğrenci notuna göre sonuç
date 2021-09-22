@@ -1,0 +1,36 @@
+package javaapplication1;
+
+import java.util.Scanner;
+
+ 
+public class JavaApplication1 {
+
+ 
+        
+    public static void main(String[] args) {
+        // TODO code application logic here
+        boolean a =true;
+        System.out.println("Lütfen Adınızı Giriniz: ");
+        Scanner s=new Scanner(System.in);
+        String name=s.next();
+        System.out.println("Lütfen Not Giriniz: ");
+        int not =s.nextInt();
+        
+        if(not>100){
+            System.out.println(name+" " +"En yüksek not 100 olabilir.");
+            a=false; 
+        }
+            if(not>0 && not<100){
+                a=true;
+            }
+            if(a==true & not<50) {
+                System.out.println(name +" "+"Kaldınız.");
+           a=true; 
+           }
+           if (a==true & not>=50){
+                System.out.println(name +" "+"Geçtiniz.");
+                a=true;
+            }
+        }
+        
+    }
