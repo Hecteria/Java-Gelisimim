@@ -6,7 +6,7 @@ public class Teksayi {
     int d1=girdeger.nextInt();
     for(int i =0;i<=d1;i++){
         if(i%2==1){
-            System.out.println(i);
+            System.out.println("Sonuçlar: "+i);
         }
     }    
     }
