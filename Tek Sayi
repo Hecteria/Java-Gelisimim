@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Teksayi {
+    public static void main(String[] args) {
+    System.out.println("Değer Giriniz: ");
+    Scanner girdeger=new Scanner(System.in);
+    int d1=girdeger.nextInt();
+    for(int i =0;i<=d1;i++){
+        if(i%2==1){
+            System.out.println(i);
+        }
+    }    
+    }
+}
